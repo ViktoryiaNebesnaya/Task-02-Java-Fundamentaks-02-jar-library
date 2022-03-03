@@ -1,0 +1,17 @@
+package by.epam.jwd.calc;
+
+public class Calculator {
+
+	public double calculate() {
+		
+		CalculatorInput input = new CalculatorInput();
+		String str = input.getExpression();
+
+		—alculatorLogic logic = new —alculatorLogic();
+		double result = logic.calcExpression(str);
+
+		return result;
+
+	}
+
+}
