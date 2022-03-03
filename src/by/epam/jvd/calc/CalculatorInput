@@ -1,0 +1,18 @@
+package by.epam.jwd.calc;
+
+import java.util.Scanner;
+
+public class CalculatorInput {
+	
+	public String getExpression() {
+		
+		System.out.println("¬ведите выражение: ");
+		String expression = null;
+		Scanner sc = new Scanner(System.in);
+		expression = sc.nextLine();
+
+		sc.close();
+
+		return expression;
+	}
+}
