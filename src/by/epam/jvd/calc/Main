@@ -1,0 +1,15 @@
+package by.epam.jwd.calc;
+
+public class Main {
+	
+	public static void main(String[] args) {
+
+		double result;
+
+		Calculator calc = new Calculator();
+
+		result = calc.calculate();
+
+		System.out.println("–езультат вычислени€: " + result);
+	}
+}
